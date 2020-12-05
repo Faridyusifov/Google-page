@@ -1,68 +1,83 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-   <!-- <link href="C:\Users\lenovo\Desktop\web learn\google.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="css/google.css" type="text/css"> -->
-    <link href="google.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="google.css">
 </head>
 <body>
-<div class="header">
-    
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-    
-   <!-- <img  src="https://lh3.googleusercontent.com/ogw/ADGmqu-0uIAyFYdKFk62CBweVIE5DJowQLmpc0c72CqD=s32-c-mo">-->
+    <main>
+        <!-- Header start -->
+        <header class="arx-header">
+            <ul class="arx-nav">
+                <li class="arx-nav-item"><a class="standard-link" href="#">Gmail</a></li>
+                <li class="arx-nav-item"><a class="standard-link" href="#">Images</a></li>
+                <li class="arx-nav-item">
+                    <button class="sprite-btn valign-middle"></button>
+                </li>
+                <li class="arx-nav-item">
+                    <button class="profile-btn valign-middle">
+                        <img src="profile-photo.jpg" alt="">
+                    </button>
+                </li>
+            </ul>
+        </header>
+        <!-- Header end -->
+        <!-- Content/Section start -->
+        <section class="talign-center pt-109 dynamic-height">
+            <section class="arx-content">
+                <div class="arx-img-container">
+                    <img src="google-main-logo.png" alt="" />
+                </div>
+                <div class="arx-search-form">
+                    <form action="#">
+                        <div class="arx-input-group">
+                            <img class="search-logo" src="search.svg" alt="">
+                            <input type="text">
+                            <button class="reset-btn">
+                                <img width="24" height="24" src="microphone.svg" alt="">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="arx-btn-group">
+                    <button class="standard-btn">Google Search</button>
+                    <button class="standard-btn">I'm feeling lucky</button>
+                </div>
+                <div class="arx-language-links font-size-13">
+                    Google offered in: <a href="#">Azerbaycan dili</a> <a href="#">Russkiy</a>
+                </div>
+            </section>
+        </section>
+        <!-- Content/Section end -->
 
-   <!--<a href="https://accounts.google.com/SignOutOptions?hl=en&amp;continue=https://www.google.com/" role="button" tabindex="0" title="Google Account: Farid Yusifov  
-   (faridyusifov2003@gmail.com)" aria-expanded="false"><img class="actimg" src="https://lh3.googleusercontent.com/ogw/ADGmqu-0uIAyFYdKFk62CBweVIE5DJowQLmpc0c72CqD=s32-c-mo" srcset="https://lh3.googleusercontent.com/ogw/ADGmqu-0uIAyFYdKFk62CBweVIE5DJowQLmpc0c72CqD=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/ADGmqu-0uIAyFYdKFk62CBweVIE5DJowQLmpc0c72CqD=s64-c-mo 2x " alt="" aria-hidden="true" data-noaft="" data-iml="1603969603777" data-atf="1"></a>-->
-   
-<button title="Google Account:Farid Yusifov 
-(faridyusifov2003@gmail.com)"><strong>F</strong></button>
-</div>
-<div class="main">
-    
-      <div class="logo-img">
-           <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-       </div>
-       <div class="search-box">
-         <input type="text" name="text" placeholder="Search Google and type a URL">
-       </div>
-       <div class="btn">
-           <button>Google Search</button>
-           <button>I'm Feeling Lucky</button>
-       </div>
-       <div class="languages">
-           <label>Google offered in: </label>
-           <a href="#">Turkce</a>
-           <a href="#">Azerbaycan dili</a>
-           <a href="#">Rusian</a>
-       </div>
-</div>
-    
-<div class="footer">
-    <div class="country">
-        <span>Azerbaijan</span>
-    </div>
-    <div class="footer-link">
-        <div class="footer-left">
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">About</a>
-            <a href="#">How Search works</a>
-        </div>
-        <div class="footer-right">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
-        </div>
-    </div>
-</div>
-
+        <!-- Footer start -->
+        <footer class="arx-footer">
+            <div class="arx-footer-section">
+                <span>Azerbaycan</span>
+            </div>
+            <div class="arx-footer-section">
+                <div class="footer-list-container">
+                    <ul class="reset-list">
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list-container">
+                    <ul class="reset-list">
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+        <!-- TODO: 123 -->
+    </main>
 </body>
 </html>
